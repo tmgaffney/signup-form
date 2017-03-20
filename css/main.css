@@ -1,0 +1,91 @@
+* {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: dodgerblue;
+}
+
+header {
+	margin-top: 40px;
+}
+
+header img {
+	display: block;
+    height: 35px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+main {
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 30px 40px;
+	background-color: white;
+	border-radius: 3px;
+}
+
+form legend {
+	font-size: 35px;
+	color: grey;
+}
+
+form fieldset {
+	border: none;
+	padding: 0;
+}
+
+form legend {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+
+label {
+	font-weight: 600;
+}
+
+input[type="email"],
+input[type="password"]  {
+	width: 320px;
+	height: 55px;
+	border: 2px solid lightgrey;
+	border-radius: 3px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 15px;
+	font-weight: 600;
+}
+
+form button {
+	width: 320px;
+	height: 55px;
+	background-color: lightgreen;
+	border: none;
+	color: white;
+	font-size: 26px;
+	margin-bottom: 10px;
+}
+
+main a {
+	color: grey;
+	font-weight: 600;
+}
+
+footer {
+	margin-top: 10px;
+}
+
+footer p {
+	color: white;
+	font-weight: 600;
+}
+
+footer a {
+	color: white;
+}
